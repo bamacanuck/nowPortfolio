@@ -7,8 +7,14 @@ body, html {
 }
 
 section {
-	min-height: 100%;
+	min-height: 800px;
+	min-height: 100vh;
 	border: 1px solid black;
 	padding-top: 5%;
+	background-size: cover;
+	background-position: center center;
 }
 
+section:nth-child(even) {
+	background-color: #ddd;
+}
