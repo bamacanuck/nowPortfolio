@@ -2,7 +2,17 @@ body, html {
 	height: 100%;
 }
 
-#navMenu {
+#navMenu {}
+
+.navbar {
+	background-color: aqua;
+	border: 1px solid black;
+
+	position: fixed;
+	right: 15px;
+	top 20%;
+	height: 150px;
+	opacity: 
 
 }
 
