@@ -3,5 +3,12 @@ body, html {
 }
 
 #navMenu {
-	
+
 }
+
+section {
+	min-height: 100%;
+	border: 1px solid black;
+	padding-top: 5%;
+}
+
