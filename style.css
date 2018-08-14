@@ -62,6 +62,14 @@ section {
 	background-position: center center;
 }
 
+section h2 {
+	margin-left: 2%;
+}
+
+section p {
+	margin-left: 2%;
+}
+
 section:nth-child(even) {
 	background-color: #ddd;
 }
