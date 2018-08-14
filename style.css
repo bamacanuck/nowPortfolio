@@ -44,7 +44,12 @@ p img {
 .navbar li {
 	list-style-type: none;
 	padding: 0;
-	/* font-size: 0.01px; */
+	font-size: 0.01px;
+	/* box-shadow: .1px .1px .1px #888; */
+}
+
+.navbar li.active a {
+	background-color: rgb(100, 180, 140);
 }
 
 section {
