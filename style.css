@@ -38,7 +38,7 @@ p img {
 }
 
 .navbar a:hover {
-	background-color: red;
+	background-color: rgb(100, 180, 140);
 }
 
 .navbar li {
