@@ -65,10 +65,12 @@ section {
 
 section h2 {
 	margin-left: 2%;
+	margin-right: 5%;
 }
 
 section p {
 	margin-left: 2%;
+	margin-right: 6.5%;
 }
 
 section:nth-child(even) {
