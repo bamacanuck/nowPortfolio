@@ -73,6 +73,8 @@ section p {
 	margin-right: 6.5%;
 }
 
+
+// every other section gets this different shade, for distinct separation
 section:nth-child(even) {
 	background-color: #ddd;
 }
