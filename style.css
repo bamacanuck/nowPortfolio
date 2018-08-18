@@ -78,3 +78,7 @@ section p {
 section:nth-child(even) {
 	background-color: #ddd;
 }
+
+img {
+	max-width: 100%;
+}
