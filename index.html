@@ -88,7 +88,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script>
 		$(document).ready(function () {
-			$('#navMenu').on('click', function(x) {
+			$('a[href^="#"]').on('click', function(x) {
 				console.dir(x);
 			});
 		})
