@@ -89,7 +89,7 @@
 	<script>
 		$(document).ready(function () {
 			$('a[href^="#"]').on('click', function(event) {
-				// event.preventDefault();
+				event.preventDefault();
 				let sectionTarget = $(this).attr('href');
 				let fromTop = $(sectionTarget).offset().top;
 				$('html, body').stop().animate({scrollTop:fromTop}, 800);
