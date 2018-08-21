@@ -92,7 +92,9 @@
 				event.preventDefault();
 				let sectionTarget = $(this).attr('href');
 				let fromTop = $(sectionTarget).offset().top;
-				$('html, body').stop().animate({scrollTop:fromTop}, 800);
+				$('html, body').stop().animate({
+					scrollTop:fromTop},
+					800);
 				// console.dir($(this));
 				// console.log(fromTop);
 				// console.log(sectionTarget);
