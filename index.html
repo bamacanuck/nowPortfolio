@@ -96,8 +96,13 @@
 				// console.dir($(this));
 				// console.log(fromTop);
 				// console.log(sectionTarget);
-				
-			});
+
+			})
+
+			%(window).scroll(function () {
+				let fromTop = $(this).scrollTop();
+				console.log(fromTop);
+			})
 		})
 	</script>
 </body>
