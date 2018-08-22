@@ -90,7 +90,8 @@
 		$(document).ready(function () {
 
 			let sectionList = $('.navbar').find('a');
-			// console.log(sectionList);
+			console.log(sectionList);
+			// console.log(sectionList.get());
 
 			let sectionItems = sectionList.map(function () {
 				let x = $($(this).attr('href'));
@@ -99,7 +100,7 @@
 				}
 			})
 
-			console.log(sectionItems);
+			// console.log(sectionItems);
 
 			$('a[href^="#"]').on('click', function(event) {
 				event.preventDefault();
