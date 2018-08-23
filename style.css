@@ -3,7 +3,7 @@ body, html {
 	height: 100%;
 }
 
-#navMenu {}
+/* #navMenu {} */
 
 .navbar {
 	/* background-color: rgb(100, 180, 255); */
@@ -75,7 +75,8 @@ section p {
 }
 
 
-// every other section gets this different shade, for distinct separation
+/* every other section gets this different shade, for distinct separation */
+
 section:nth-child(even) {
 	background-color: #ddd;
 }
