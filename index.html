@@ -96,13 +96,15 @@
 			// let sectionList = sectionList.get();
 
 			let sectionItems = sectionList.map(function () {
+				// could surely stand to better understand
+				// this "nested" jQuery expression (below)
 				let x = $($(this).attr('href'));
 				if (x) {
 					return x;
 				}
 			})
 
-			// console.log(sectionItems);
+			console.log(sectionItems.get());
 
 			$('a[href^="#"]').on('click', function(event) {
 				event.preventDefault();
@@ -116,7 +118,7 @@
 
 			$(window).scroll(function () {
 				let fromTop = $(this).scrollTop();
-				console.log(fromTop);
+				// console.log(fromTop);
 			})
 		})
 	</script>
