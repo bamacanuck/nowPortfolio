@@ -99,13 +99,13 @@
 				// could surely stand to better understand
 				// this "nested" jQuery expression
 				// (immediately below)
-				let x = $($(this).attr('href'));
+				let x = ($(this).attr('href'));
 				if (x) {
 					return x;
 				}
 			})
 
-			console.log(sectionItems.get());
+			console.log(sectionItems);
 
 			$('a[href^="#"]').on('click', function(event) {
 				event.preventDefault();
@@ -113,7 +113,7 @@
 				let sectionTarget = $(this).attr('href');
 				// (below) get 'distance' from top of page
 				let fromTop = $(sectionTarget).offset().top;
-				$('html, body').stop().animate({ 
+				$('html, body').stop().animate({
 					scrollTop:fromTop},
 					800);
 					// (above) scroll to prescribed
