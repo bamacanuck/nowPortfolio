@@ -109,9 +109,13 @@
 
 			$('a[href^="#"]').on('click', function(event) {
 				event.preventDefault();
+				// (below) get #section href
 				let sectionTarget = $(this).attr('href');
+				// (below) get 'distance' from top of page
 				let fromTop = $(sectionTarget).offset().top;
 				$('html, body').stop().animate({
+					// (below) scroll to prescribed
+					// 'distance' from top of page
 					scrollTop:fromTop},
 					800);
 
