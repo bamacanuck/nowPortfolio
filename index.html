@@ -113,12 +113,14 @@
 				let sectionTarget = $(this).attr('href');
 				// (below) get 'distance' from top of page
 				let fromTop = $(sectionTarget).offset().top;
-				$('html, body').stop().animate({
-					// (below) scroll to prescribed
-					// 'distance' from top of page,
-					// in matching section area start 
+				$('html, body').stop().animate({ 
 					scrollTop:fromTop},
 					800);
+					// (above) scroll to prescribed
+					// 'distance' from top of page,
+					// in matching section area start,
+					// and have this happen in a span
+					// of 800 milliseconds
 
 			})
 
