@@ -1,6 +1,6 @@
-lecture 308
+lecture 309
 
-- lecture 307 still warrants more review (!!!)
+- lectures 307 AND 308 definitely still warrant more review (!!!)
 
 * remember to revisit the initial sectioning layout work,
 to make the (for now, "dummy") images fit correctly
