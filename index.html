@@ -99,7 +99,7 @@
 				// could surely stand to better understand
 				// this "nested" jQuery expression
 				// (immediately below)
-				let x = ($(this).attr('href'));
+				let x = $($(this).attr('href'));
 				if (x) {
 					return x;
 				}
