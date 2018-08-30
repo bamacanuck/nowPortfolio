@@ -1,6 +1,10 @@
-lecture 309
+lecture 312
 
-- lectures 307 AND 308 definitely still warrant more review (!!!)
+(no 310 or 311, apparently?)
+
+- lectures 307, 308, AND 309 definitely still warrant more review (!!!)
 
 * remember to revisit the initial sectioning layout work,
 to make the (for now, "dummy") images fit correctly
+
+* responsiveness is to be covered in upcoming lessons
