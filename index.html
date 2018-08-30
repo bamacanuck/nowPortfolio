@@ -128,7 +128,7 @@
 			})
 
 			$(window).scroll(function () {
-				let fromTop = $(this).scrollTop();
+				let fromTop = $(this).scrollTop() + 10;
 				// console.log(fromTop);
 				let currentSection = sectionItems.map(function () {
 					if ($(this).offset().top < fromTop) {
@@ -145,7 +145,8 @@
 				if (lastSection !== id) {
 					lastSection = currentSection;
 					console.log(lastSection);
-					sectionList.parent().removeClass("active").end().filter("a[href^='"+ id +"']")
+					sectionList.parent().removeClass("active").end().filter("[href='#"+
+					 id +"']").parent().addClass("active");
 				}
 			})
 
