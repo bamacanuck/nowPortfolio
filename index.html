@@ -89,6 +89,8 @@
 	<script>
 		$(document).ready(function () {
 
+			let lastSection = "";
+
 			let sectionList = $('.navbar').find('a');
 			// console.log(sectionList);
 			// console.log(sectionList.get());
@@ -128,6 +130,11 @@
 			$(window).scroll(function () {
 				let fromTop = $(this).scrollTop();
 				// console.log(fromTop);
+				let currentSection = sectionItems.map(function () {
+					if ($(this).offset().top < fromTop) {
+						return this;
+					}
+				})
 			})
 
 			// console.log([1, 2])
