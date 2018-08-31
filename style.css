@@ -4,6 +4,16 @@ body, html {
 	height: 100%;
 }
 
+a {
+	text-decoration: none;
+	color: darkgreen;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: purple;
+}
+
 /* #navMenu {} ??? */
 
 .navbar {
