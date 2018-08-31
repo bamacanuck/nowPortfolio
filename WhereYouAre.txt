@@ -7,4 +7,6 @@ lecture 312
 * remember to revisit the initial sectioning layout work,
 to make the (for now, "dummy") images fit correctly
 
-* responsiveness is to be covered in upcoming lessonsnew note
+* responsiveness is to be covered in upcoming lessons
+
+* consider a Google Font
