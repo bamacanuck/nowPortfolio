@@ -18,6 +18,11 @@ a:hover {
 	color: purple;
 }
 
+#wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
 /* #navMenu {} ??? */
 
 .navbar {
@@ -98,4 +103,8 @@ section:nth-child(even) {
 
 img {
 	max-width: 100%;
+}
+
+@media screen and (max-width:1200) {
+
 }
