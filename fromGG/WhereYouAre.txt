@@ -1,1 +1,4 @@
 have added arrow-control logic for nav
+
+*** need to fix (get rid of) odd white stripe
+    at top of first slide/page
