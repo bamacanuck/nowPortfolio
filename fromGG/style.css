@@ -5,7 +5,8 @@ html, body{
     }
 
 h2 {
- margin: 0,30%,0,5%; 
+  margin-left: 5%;
+ /* margin: 0, 20px, 0, 20px;  */
 }
 
 article {
