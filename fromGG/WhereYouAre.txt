@@ -1,3 +1,1 @@
-have copied touch-control logic for alteration
-to arrow-control logic, but have not (much?)
-altered it
+have added arrow-control logic for nav
